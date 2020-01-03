@@ -1,5 +1,5 @@
 {
-    "name": "leodisarli/locus-php",
+    "name": "newwaybrasil/locus-php",
     "description": "PHP library get urls of services in a microservice architecture, with redis cache",
     "version": "1.0.0",
     "type": "library",
@@ -16,8 +16,8 @@
     "license": "GPL-3.0-only",
     "authors": [
         {
-            "name": "Leo Di Sarli",
-            "email": "leosarli@gmail.com"
+            "name": "New Way Brazil",
+            "email": "contato@gruponewway.com.br"
         }
     ],
     "autoload": {
