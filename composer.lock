@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66f02a740ef8d31fef967cff83471261",
+    "content-hash": "220245212fd59667cfb78b74ee2f1247",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.130.2",
+            "version": "3.130.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "35289d9dd5184dd1106e49f99ef5074a84635b5c"
+                "reference": "916356edb5c30fa564d02de94bde51a9c0bb4469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/35289d9dd5184dd1106e49f99ef5074a84635b5c",
-                "reference": "35289d9dd5184dd1106e49f99ef5074a84635b5c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/916356edb5c30fa564d02de94bde51a9c0bb4469",
+                "reference": "916356edb5c30fa564d02de94bde51a9c0bb4469",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +88,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-12-23T19:12:28+00:00"
+            "time": "2020-01-02T19:13:50+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -380,16 +380,16 @@
         },
         {
             "name": "predis/predis",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "0e17edbefb50c6cbd1acc4a6f6ef06399deb1af2"
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/0e17edbefb50c6cbd1acc4a6f6ef06399deb1af2",
-                "reference": "0e17edbefb50c6cbd1acc4a6f6ef06399deb1af2",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
             "require": {
@@ -426,7 +426,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2016-06-01T22:06:21+00:00"
+            "time": "2016-06-16T16:22:20+00:00"
         },
         {
             "name": "psr/http-message",
