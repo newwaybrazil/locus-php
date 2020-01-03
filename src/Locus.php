@@ -41,14 +41,14 @@ class Locus
         $url = $this->getUrlFromEnv(
             $service
         );
-        if (!empty($url)){
+        if (!empty($url)) {
             return $url;
         }
 
         $urls = $this->getUrlsFromCache(
             $service
         );
-        if (!empty($urls)){
+        if (!empty($urls)) {
             $index = $this->getRandomIndex(
                 $urls
             );
@@ -59,7 +59,7 @@ class Locus
             $namespace,
             $service
         );
-        if (!empty($urls)){
+        if (!empty($urls)) {
             $index = $this->getRandomIndex(
                 $urls
             );

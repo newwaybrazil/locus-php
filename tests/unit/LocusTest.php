@@ -237,7 +237,7 @@ class LocusTest extends TestCase
 
         Mockery::mock('overload:' . Client::class)
             ->shouldReceive('set')
-            ->with("locus-{$service}",json_encode($urlList))
+            ->with("locus-{$service}", json_encode($urlList))
             ->once()
             ->andReturn(true)
             ->getMock();
@@ -286,7 +286,7 @@ class LocusTest extends TestCase
 
         Mockery::mock('overload:' . Client::class)
             ->shouldReceive('set')
-            ->with("locus-{$service}",json_encode($urlList))
+            ->with("locus-{$service}", json_encode($urlList))
             ->once()
             ->andReturn(true)
             ->getMock();
